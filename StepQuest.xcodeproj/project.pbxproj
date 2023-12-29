@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35EB8182B3E827D009986A6 /* StepQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8172B3E827D009986A6 /* StepQuestApp.swift */; };
+		D35EB81A2B3E827D009986A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8192B3E827D009986A6 /* ContentView.swift */; };
+		D35EB81C2B3E827E009986A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EB81B2B3E827E009986A6 /* Assets.xcassets */; };
+		D35EB81F2B3E827E009986A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EB81E2B3E827E009986A6 /* Preview Assets.xcassets */; };
+		D35EB8292B3E827E009986A6 /* StepQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8282B3E827E009986A6 /* StepQuestTests.swift */; };
+		D35EB8332B3E827E009986A6 /* StepQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8322B3E827E009986A6 /* StepQuestUITests.swift */; };
+		D35EB8352B3E827E009986A6 /* StepQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8342B3E827E009986A6 /* StepQuestUITestsLaunchTests.swift */; };
+		D35EB83B2B3E827E009986A6 /* StepQuest Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D35EB83A2B3E827E009986A6 /* StepQuest Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D35EB8402B3E827E009986A6 /* StepQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB83F2B3E827E009986A6 /* StepQuestApp.swift */; };
+		D35EB8422B3E827E009986A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8412B3E827E009986A6 /* ContentView.swift */; };
+		D35EB8442B3E827F009986A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EB8432B3E827F009986A6 /* Assets.xcassets */; };
+		D35EB8472B3E827F009986A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EB8462B3E827F009986A6 /* Preview Assets.xcassets */; };
+		D35EB8512B3E827F009986A6 /* StepQuest_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB8502B3E827F009986A6 /* StepQuest_Watch_AppTests.swift */; };
+		D35EB85B2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB85A2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift */; };
+		D35EB85D2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EB85C2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35EB8252B3E827E009986A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35EB80C2B3E827D009986A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35EB8132B3E827D009986A6;
+			remoteInfo = StepQuest;
+		};
+		D35EB82F2B3E827E009986A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35EB80C2B3E827D009986A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35EB8132B3E827D009986A6;
+			remoteInfo = StepQuest;
+		};
+		D35EB83C2B3E827E009986A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35EB80C2B3E827D009986A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35EB8392B3E827E009986A6;
+			remoteInfo = "StepQuest Watch App";
+		};
+		D35EB84D2B3E827F009986A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35EB80C2B3E827D009986A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35EB8392B3E827E009986A6;
+			remoteInfo = "StepQuest Watch App";
+		};
+		D35EB8572B3E827F009986A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35EB80C2B3E827D009986A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35EB8392B3E827E009986A6;
+			remoteInfo = "StepQuest Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D35EB8632B3E827F009986A6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D35EB83B2B3E827E009986A6 /* StepQuest Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D35EB8142B3E827D009986A6 /* StepQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB8172B3E827D009986A6 /* StepQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestApp.swift; sourceTree = "<group>"; };
+		D35EB8192B3E827D009986A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D35EB81B2B3E827E009986A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35EB81E2B3E827E009986A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D35EB8242B3E827E009986A6 /* StepQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB8282B3E827E009986A6 /* StepQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestTests.swift; sourceTree = "<group>"; };
+		D35EB82E2B3E827E009986A6 /* StepQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB8322B3E827E009986A6 /* StepQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestUITests.swift; sourceTree = "<group>"; };
+		D35EB8342B3E827E009986A6 /* StepQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D35EB83A2B3E827E009986A6 /* StepQuest Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StepQuest Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB83F2B3E827E009986A6 /* StepQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestApp.swift; sourceTree = "<group>"; };
+		D35EB8412B3E827E009986A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D35EB8432B3E827F009986A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35EB8462B3E827F009986A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D35EB84C2B3E827F009986A6 /* StepQuest Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StepQuest Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB8502B3E827F009986A6 /* StepQuest_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuest_Watch_AppTests.swift; sourceTree = "<group>"; };
+		D35EB8562B3E827F009986A6 /* StepQuest Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StepQuest Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35EB85A2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuest_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		D35EB85C2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuest_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35EB8112B3E827D009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8212B3E827E009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB82B2B3E827E009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8372B3E827E009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8492B3E827F009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8532B3E827F009986A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35EB80B2B3E827D009986A6 = {
+			isa = PBXGroup;
+			children = (
+				D35EB8162B3E827D009986A6 /* StepQuest */,
+				D35EB8272B3E827E009986A6 /* StepQuestTests */,
+				D35EB8312B3E827E009986A6 /* StepQuestUITests */,
+				D35EB83E2B3E827E009986A6 /* StepQuest Watch App */,
+				D35EB84F2B3E827F009986A6 /* StepQuest Watch AppTests */,
+				D35EB8592B3E827F009986A6 /* StepQuest Watch AppUITests */,
+				D35EB8152B3E827D009986A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35EB8152B3E827D009986A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8142B3E827D009986A6 /* StepQuest.app */,
+				D35EB8242B3E827E009986A6 /* StepQuestTests.xctest */,
+				D35EB82E2B3E827E009986A6 /* StepQuestUITests.xctest */,
+				D35EB83A2B3E827E009986A6 /* StepQuest Watch App.app */,
+				D35EB84C2B3E827F009986A6 /* StepQuest Watch AppTests.xctest */,
+				D35EB8562B3E827F009986A6 /* StepQuest Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35EB8162B3E827D009986A6 /* StepQuest */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8172B3E827D009986A6 /* StepQuestApp.swift */,
+				D35EB8192B3E827D009986A6 /* ContentView.swift */,
+				D35EB81B2B3E827E009986A6 /* Assets.xcassets */,
+				D35EB81D2B3E827E009986A6 /* Preview Content */,
+			);
+			path = StepQuest;
+			sourceTree = "<group>";
+		};
+		D35EB81D2B3E827E009986A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB81E2B3E827E009986A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D35EB8272B3E827E009986A6 /* StepQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8282B3E827E009986A6 /* StepQuestTests.swift */,
+			);
+			path = StepQuestTests;
+			sourceTree = "<group>";
+		};
+		D35EB8312B3E827E009986A6 /* StepQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8322B3E827E009986A6 /* StepQuestUITests.swift */,
+				D35EB8342B3E827E009986A6 /* StepQuestUITestsLaunchTests.swift */,
+			);
+			path = StepQuestUITests;
+			sourceTree = "<group>";
+		};
+		D35EB83E2B3E827E009986A6 /* StepQuest Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB83F2B3E827E009986A6 /* StepQuestApp.swift */,
+				D35EB8412B3E827E009986A6 /* ContentView.swift */,
+				D35EB8432B3E827F009986A6 /* Assets.xcassets */,
+				D35EB8452B3E827F009986A6 /* Preview Content */,
+			);
+			path = "StepQuest Watch App";
+			sourceTree = "<group>";
+		};
+		D35EB8452B3E827F009986A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8462B3E827F009986A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D35EB84F2B3E827F009986A6 /* StepQuest Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB8502B3E827F009986A6 /* StepQuest_Watch_AppTests.swift */,
+			);
+			path = "StepQuest Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D35EB8592B3E827F009986A6 /* StepQuest Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35EB85A2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift */,
+				D35EB85C2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "StepQuest Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35EB8132B3E827D009986A6 /* StepQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB8642B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest" */;
+			buildPhases = (
+				D35EB8102B3E827D009986A6 /* Sources */,
+				D35EB8112B3E827D009986A6 /* Frameworks */,
+				D35EB8122B3E827D009986A6 /* Resources */,
+				D35EB8632B3E827F009986A6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35EB83D2B3E827E009986A6 /* PBXTargetDependency */,
+			);
+			name = StepQuest;
+			productName = StepQuest;
+			productReference = D35EB8142B3E827D009986A6 /* StepQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35EB8232B3E827E009986A6 /* StepQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB8672B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuestTests" */;
+			buildPhases = (
+				D35EB8202B3E827E009986A6 /* Sources */,
+				D35EB8212B3E827E009986A6 /* Frameworks */,
+				D35EB8222B3E827E009986A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35EB8262B3E827E009986A6 /* PBXTargetDependency */,
+			);
+			name = StepQuestTests;
+			productName = StepQuestTests;
+			productReference = D35EB8242B3E827E009986A6 /* StepQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35EB82D2B3E827E009986A6 /* StepQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB86A2B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuestUITests" */;
+			buildPhases = (
+				D35EB82A2B3E827E009986A6 /* Sources */,
+				D35EB82B2B3E827E009986A6 /* Frameworks */,
+				D35EB82C2B3E827E009986A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35EB8302B3E827E009986A6 /* PBXTargetDependency */,
+			);
+			name = StepQuestUITests;
+			productName = StepQuestUITests;
+			productReference = D35EB82E2B3E827E009986A6 /* StepQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D35EB8392B3E827E009986A6 /* StepQuest Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB8602B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch App" */;
+			buildPhases = (
+				D35EB8362B3E827E009986A6 /* Sources */,
+				D35EB8372B3E827E009986A6 /* Frameworks */,
+				D35EB8382B3E827E009986A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StepQuest Watch App";
+			productName = "StepQuest Watch App";
+			productReference = D35EB83A2B3E827E009986A6 /* StepQuest Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35EB84B2B3E827F009986A6 /* StepQuest Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB86D2B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch AppTests" */;
+			buildPhases = (
+				D35EB8482B3E827F009986A6 /* Sources */,
+				D35EB8492B3E827F009986A6 /* Frameworks */,
+				D35EB84A2B3E827F009986A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35EB84E2B3E827F009986A6 /* PBXTargetDependency */,
+			);
+			name = "StepQuest Watch AppTests";
+			productName = "StepQuest Watch AppTests";
+			productReference = D35EB84C2B3E827F009986A6 /* StepQuest Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35EB8552B3E827F009986A6 /* StepQuest Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35EB8702B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch AppUITests" */;
+			buildPhases = (
+				D35EB8522B3E827F009986A6 /* Sources */,
+				D35EB8532B3E827F009986A6 /* Frameworks */,
+				D35EB8542B3E827F009986A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35EB8582B3E827F009986A6 /* PBXTargetDependency */,
+			);
+			name = "StepQuest Watch AppUITests";
+			productName = "StepQuest Watch AppUITests";
+			productReference = D35EB8562B3E827F009986A6 /* StepQuest Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35EB80C2B3E827D009986A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D35EB8132B3E827D009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D35EB8232B3E827E009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D35EB8132B3E827D009986A6;
+					};
+					D35EB82D2B3E827E009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D35EB8132B3E827D009986A6;
+					};
+					D35EB8392B3E827E009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D35EB84B2B3E827F009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D35EB8392B3E827E009986A6;
+					};
+					D35EB8552B3E827F009986A6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D35EB8392B3E827E009986A6;
+					};
+				};
+			};
+			buildConfigurationList = D35EB80F2B3E827D009986A6 /* Build configuration list for PBXProject "StepQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35EB80B2B3E827D009986A6;
+			productRefGroup = D35EB8152B3E827D009986A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35EB8132B3E827D009986A6 /* StepQuest */,
+				D35EB8232B3E827E009986A6 /* StepQuestTests */,
+				D35EB82D2B3E827E009986A6 /* StepQuestUITests */,
+				D35EB8392B3E827E009986A6 /* StepQuest Watch App */,
+				D35EB84B2B3E827F009986A6 /* StepQuest Watch AppTests */,
+				D35EB8552B3E827F009986A6 /* StepQuest Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35EB8122B3E827D009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB81F2B3E827E009986A6 /* Preview Assets.xcassets in Resources */,
+				D35EB81C2B3E827E009986A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8222B3E827E009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB82C2B3E827E009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8382B3E827E009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB8472B3E827F009986A6 /* Preview Assets.xcassets in Resources */,
+				D35EB8442B3E827F009986A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB84A2B3E827F009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8542B3E827F009986A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35EB8102B3E827D009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB81A2B3E827D009986A6 /* ContentView.swift in Sources */,
+				D35EB8182B3E827D009986A6 /* StepQuestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8202B3E827E009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB8292B3E827E009986A6 /* StepQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB82A2B3E827E009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB8332B3E827E009986A6 /* StepQuestUITests.swift in Sources */,
+				D35EB8352B3E827E009986A6 /* StepQuestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8362B3E827E009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB8422B3E827E009986A6 /* ContentView.swift in Sources */,
+				D35EB8402B3E827E009986A6 /* StepQuestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8482B3E827F009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB8512B3E827F009986A6 /* StepQuest_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35EB8522B3E827F009986A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EB85B2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift in Sources */,
+				D35EB85D2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35EB8262B3E827E009986A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35EB8132B3E827D009986A6 /* StepQuest */;
+			targetProxy = D35EB8252B3E827E009986A6 /* PBXContainerItemProxy */;
+		};
+		D35EB8302B3E827E009986A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35EB8132B3E827D009986A6 /* StepQuest */;
+			targetProxy = D35EB82F2B3E827E009986A6 /* PBXContainerItemProxy */;
+		};
+		D35EB83D2B3E827E009986A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35EB8392B3E827E009986A6 /* StepQuest Watch App */;
+			targetProxy = D35EB83C2B3E827E009986A6 /* PBXContainerItemProxy */;
+		};
+		D35EB84E2B3E827F009986A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35EB8392B3E827E009986A6 /* StepQuest Watch App */;
+			targetProxy = D35EB84D2B3E827F009986A6 /* PBXContainerItemProxy */;
+		};
+		D35EB8582B3E827F009986A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35EB8392B3E827E009986A6 /* StepQuest Watch App */;
+			targetProxy = D35EB8572B3E827F009986A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D35EB85E2B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35EB85F2B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D35EB8612B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepQuest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dakotakim.StepQuest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D35EB8622B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepQuest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dakotakim.StepQuest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D35EB8652B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35EB8662B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35EB8682B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepQuest";
+			};
+			name = Debug;
+		};
+		D35EB8692B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepQuest";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35EB86B2B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepQuest;
+			};
+			name = Debug;
+		};
+		D35EB86C2B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.StepQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepQuest;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35EB86E2B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakotakim.StepQuest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepQuest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepQuest Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D35EB86F2B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakotakim.StepQuest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepQuest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepQuest Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D35EB8712B3E827F009986A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakotakim.StepQuest-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StepQuest Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D35EB8722B3E827F009986A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakotakim.StepQuest-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StepQuest Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35EB80F2B3E827D009986A6 /* Build configuration list for PBXProject "StepQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB85E2B3E827F009986A6 /* Debug */,
+				D35EB85F2B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB8602B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB8612B3E827F009986A6 /* Debug */,
+				D35EB8622B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB8642B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB8652B3E827F009986A6 /* Debug */,
+				D35EB8662B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB8672B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB8682B3E827F009986A6 /* Debug */,
+				D35EB8692B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB86A2B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB86B2B3E827F009986A6 /* Debug */,
+				D35EB86C2B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB86D2B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB86E2B3E827F009986A6 /* Debug */,
+				D35EB86F2B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EB8702B3E827F009986A6 /* Build configuration list for PBXNativeTarget "StepQuest Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35EB8712B3E827F009986A6 /* Debug */,
+				D35EB8722B3E827F009986A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35EB80C2B3E827D009986A6 /* Project object */;
+}
