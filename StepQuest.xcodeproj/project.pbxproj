@@ -97,6 +97,8 @@
 		D35EB8562B3E827F009986A6 /* StepQuest Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StepQuest Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35EB85A2B3E827F009986A6 /* StepQuest_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuest_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		D35EB85C2B3E827F009986A6 /* StepQuest_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuest_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D35EB8732B3F0C29009986A6 /* StepQuest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepQuest.entitlements; sourceTree = "<group>"; };
+		D35EB8742B3F0C3C009986A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,8 @@
 		D35EB8162B3E827D009986A6 /* StepQuest */ = {
 			isa = PBXGroup;
 			children = (
+				D35EB8742B3F0C3C009986A6 /* Info.plist */,
+				D35EB8732B3F0C29009986A6 /* StepQuest.entitlements */,
 				D35EB8172B3E827D009986A6 /* StepQuestApp.swift */,
 				D35EB8192B3E827D009986A6 /* ContentView.swift */,
 				D35EB81B2B3E827E009986A6 /* Assets.xcassets */,
@@ -725,13 +729,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepQuest/StepQuest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StepQuest/Preview Content\"";
 				DEVELOPMENT_TEAM = ZU78LZES28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepQuest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "USE TO ACCESS STEPS.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "USE TO ACCEPT STEPS UPDATES";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -758,13 +766,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepQuest/StepQuest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StepQuest/Preview Content\"";
 				DEVELOPMENT_TEAM = ZU78LZES28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepQuest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "USE TO ACCESS STEPS.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "USE TO ACCEPT STEPS UPDATES";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
