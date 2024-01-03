@@ -159,6 +159,7 @@
 		D3A5D7F72B44F76E00C6C4CB /* StepQuestiOSWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestiOSWidget.swift; sourceTree = "<group>"; };
 		D3A5D7F92B44F76F00C6C4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A5D7FB2B44F76F00C6C4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A5D8032B44F8A700C6C4CB /* StepQuest Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "StepQuest Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +298,7 @@
 		D35EB83E2B3E827E009986A6 /* StepQuest Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D3A5D8032B44F8A700C6C4CB /* StepQuest Watch App.entitlements */,
 				D35EB83F2B3E827E009986A6 /* StepQuestApp.swift */,
 				D35EB8412B3E827E009986A6 /* ContentView.swift */,
 				D35EB8432B3E827F009986A6 /* Assets.xcassets */,
@@ -872,6 +874,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StepQuest Watch App/StepQuest Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StepQuest Watch App/Preview Content\"";
@@ -879,6 +882,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We require this to access steps data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We require this to access steps data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We require this to access steps data";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dakotakim.StepQuest;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -903,6 +909,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StepQuest Watch App/StepQuest Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StepQuest Watch App/Preview Content\"";
@@ -910,6 +917,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = StepQuest;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We require this to access steps data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We require this to access steps data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We require this to access steps data";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dakotakim.StepQuest;
 				LD_RUNPATH_SEARCH_PATHS = (
