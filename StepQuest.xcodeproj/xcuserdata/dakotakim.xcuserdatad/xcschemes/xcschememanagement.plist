@@ -7,22 +7,55 @@
 		<key>StepQuest Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>StepQuest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>StepQuestWatchWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>StepQuestiOSWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D35EB8132B3E827D009986A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D35EB8392B3E827E009986A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D35EB84B2B3E827F009986A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D35EB8552B3E827F009986A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3A5D7D72B44F6CF00C6C4CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3A5D7EE2B44F76E00C6C4CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
