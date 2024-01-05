@@ -73,12 +73,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3A5D7D72B44F6CF00C6C4CB"
+            BuildableName = "StepQuestWatchWidgetExtension.appex"
+            BlueprintName = "StepQuestWatchWidgetExtension"
+            ReferencedContainer = "container:StepQuest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "D35EB8132B3E827D009986A6"
             BuildableName = "StepQuest.app"
             BlueprintName = "StepQuest"
             ReferencedContainer = "container:StepQuest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"

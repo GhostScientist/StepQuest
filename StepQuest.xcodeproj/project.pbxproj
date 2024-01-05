@@ -125,6 +125,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D320F2882B47BA9A004BE54E /* StepQuestWatchWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepQuestWatchWidgetExtension.entitlements; sourceTree = "<group>"; };
 		D35EB8142B3E827D009986A6 /* StepQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35EB8172B3E827D009986A6 /* StepQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepQuestApp.swift; sourceTree = "<group>"; };
 		D35EB8192B3E827D009986A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -229,6 +230,7 @@
 		D35EB80B2B3E827D009986A6 = {
 			isa = PBXGroup;
 			children = (
+				D320F2882B47BA9A004BE54E /* StepQuestWatchWidgetExtension.entitlements */,
 				D35EB8162B3E827D009986A6 /* StepQuest */,
 				D35EB8272B3E827E009986A6 /* StepQuestTests */,
 				D35EB8312B3E827E009986A6 /* StepQuestUITests */,
@@ -1187,6 +1189,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StepQuestWatchWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZU78LZES28;
@@ -1217,6 +1220,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StepQuestWatchWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZU78LZES28;
