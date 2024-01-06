@@ -43,15 +43,8 @@ struct StepQuestWatchWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        VStack {
-            HStack {
-                Text("Time:")
-                Text(entry.date, style: .time)
-            }
+                ProgressView(value: 200.0, total: 10000).progressViewStyle(CircularProgressViewStyle())
 
-            Text("Emoji:")
-            Text(entry.emoji)
-        }
     }
 }
 
