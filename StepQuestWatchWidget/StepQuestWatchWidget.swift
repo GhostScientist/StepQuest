@@ -43,7 +43,18 @@ struct StepQuestWatchWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-                ProgressView(value: 200.0, total: 10000).progressViewStyle(CircularProgressViewStyle())
+        ZStack {
+            HStack {
+                ProgressView(value: 6000.0, total: 10000).progressViewStyle(CircularProgressViewStyle())
+                    .padding()
+                Text("60%")
+                    .font(.largeTitle)
+                    .bold()
+                
+            }
+        }
+        .containerBackground(.blue.gradient, for: .widget)
+        
 
     }
 }
@@ -56,7 +67,7 @@ struct StepQuestWatchWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             if #available(watchOS 10.0, *) {
                 StepQuestWatchWidgetEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
+                    
             } else {
                 StepQuestWatchWidgetEntryView(entry: entry)
                     .padding()
